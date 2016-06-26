@@ -20,10 +20,10 @@ for (var i = 2 ; i < list; i++) {
 
 2) Console log the last element in numList using .length to find the last index
 
-var testArray = ['13', '78', '34'];
-console.log(testArray.length -1); //2
-testArray[33] = 'i';
-console.log(testArray.length); //34
+var numbersArray = ['13', '78', '34'];
+console.log(numbersArray.length -1); //2
+numbersArray[33] = 'i';
+console.log(numbersArray.length); //34
 // output 34//
 
 3) Iterate through numList, output all numbers as single String
