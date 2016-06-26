@@ -11,7 +11,7 @@ var i = 2;
 var stringList = months.length;
 var text = "March, April, ";
 
-for (; i < list; i++) {
+for (var i = 2 ; i < list; i++) {
     text += months[i] + "";
 }
 //output Months list March, April, May//
@@ -20,9 +20,10 @@ for (; i < list; i++) {
 
 2) Console log the last element in numList using .length to find the last index
 
-var numbers = [13, 78, 34];
-numbers.length;
-console.log(numbers['2']);
+var testArray = ['13', '78', '34'];
+console.log(testArray.length -1); //2
+testArray[33] = 'i';
+console.log(testArray.length); //34
 // output 34//
 
 3) Iterate through numList, output all numbers as single String
